@@ -1,6 +1,22 @@
 <div align="center">
+
 <h1>ADM-DP: Adaptive Dynamic Modality Diffusion Policy through Vision-Tactile-Graph Fusion<br>for Multi-Agent Manipulation</h1>
 </div>
+## Start here
+
+This repository is a fork of [Enyi-Bean/ADM_DP](https://github.com/Enyi-Bean/ADM_DP). Original authorship, citations and upstream notices are retained. Changes here apply to this fork.
+
+**Scope:** Research implementation; training requires per-arm Zarr datasets and the simulator stack.
+
+| Need | Where to start |
+|---|---|
+| Setup, file map, inputs/outputs and troubleshooting | [Reuse guide](docs/REUSE.md) |
+| Local structural validation | `python scripts/check_repository.py` (Python 3.10+) |
+| Proposed fixes and reproducibility details | [Contributing](CONTRIBUTING.md) |
+
+The structural check does not run experiments or certify hardware, model accuracy or dependency compatibility. Reuse permissions need clarification: this checkout has no repository-wide licence file.
+
+
 
 ## Overview
 ADM-DP is an Adaptive Dynamic Modality Diffusion Policy that adaptively fuses vision, tactile, and graph modalities for multi-arm manipulation. Each arm trains independently with its own observations while sharing TCP positions for coordination.
@@ -12,8 +28,8 @@ ADM-DP is an Adaptive Dynamic Modality Diffusion Policy that adaptively fuses vi
 
 ## Installation
 ```bash
-git clone https://github.com/xxx/ADM_DP.git
-conda create -n ADM_DP python=3.9
+git clone https://github.com/dianzdd123/ADM_DP.git
+conda create -n ADM_DP python=3.10
 conda activate ADM_DP
 cd ADM_DP
 pip install -r requirements.txt

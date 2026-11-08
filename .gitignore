@@ -35,3 +35,10 @@ outputs/
 
 # Environment
 .env
+
+# Local development artefacts and credentials
+*.py[cod]
+.venv/
+.pytest_cache/
+.env.*
+!.env.example
