@@ -2,6 +2,9 @@
 
 <h1>ADM-DP: Adaptive Dynamic Modality Diffusion Policy through Vision-Tactile-Graph Fusion<br>for Multi-Agent Manipulation</h1>
 </div>
+
+**MSEI Lab:** [Website](https://zhangrobotics.com/msei_website/) · [Website on GitHub](https://github.com/dianzdd123/msei_website)
+
 ## Start here
 
 This repository is a fork of [Enyi-Bean/ADM_DP](https://github.com/Enyi-Bean/ADM_DP). Original authorship, citations and upstream notices are retained. Changes here apply to this fork.
