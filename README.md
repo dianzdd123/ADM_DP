@@ -7,6 +7,8 @@
 
 ## Start here
 
+**Repository:** [dianzdd123/ADM_DP](https://github.com/dianzdd123/ADM_DP)
+
 This repository is a fork of [Enyi-Bean/ADM_DP](https://github.com/Enyi-Bean/ADM_DP). Original authorship, citations and upstream notices are retained. Changes here apply to this fork.
 
 **Scope:** Research implementation; training requires per-arm Zarr datasets and the simulator stack.
